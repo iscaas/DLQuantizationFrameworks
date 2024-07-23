@@ -1,1 +1,13 @@
+First dataset: CIFAR-10
 
+Link: https://www.cs.toronto.edu/~kriz/cifar.html
+Loaded using Tensorflow_datasets ( tfds ): (ds_train, ds_validation), ds_info = tfds.load('cifar10', split=["train", "test"], as_supervised=True, with_info=True )
+Description: The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Second dataset: Cats and Dogs filtered
+
+Link: https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip
+Loaded using Keras utility image_dataset_from_directory
+Description: This dataset consists of 3000 colour images in 2 classes, with 1500 images per class. There are 2000 training images and 1000 test images.
